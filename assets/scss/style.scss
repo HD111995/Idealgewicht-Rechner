@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+//rendering
+* {
+  margin: 0;
+  padding: 0;
+}
+//body styling
+body {
+  background-color: rgb(207, 166, 166);
+  font-family: "Bree Serif", serif;
+}
+//Golbal Styling
+input {
+  border-radius: 10px;
+}
+//main Styling
+main {
+  width: 30vw;
+  margin: 15vh auto;
+  background-color: black;
+  color: #fff;
+  border-radius: 10px;
+  padding: 20px 40px;
+  box-shadow: 5px 5px 10px 20px rgb(63, 55, 55);
+  h1 {
+    text-align: center;
+    margin: 2vh 0;
+    text-transform: uppercase;
+    color: rgb(207, 166, 166);
+  }
+  label {
+    display: block;
+    font-size: 24px;
+    margin: 2vh 0;
+  }
+  .inline {
+    display: inline;
+    margin-right: 1vw;
+  }
+  input[type="number"] {
+    width: 5vw;
+    height: 5vh;
+    font-size: 20px;
+    text-align: center;
+  }
+  input[type="button"] {
+    background-color: rgb(207, 166, 166);
+    width: 10vw;
+    margin: 1vh 0 1vh 20vw;
+    padding: 12px 0;
+    font-size: 22px;
+    text-shadow: 2px 2px gray;
+  }
+  #result {
+    font-size: 22px;
+  }
+}
